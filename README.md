@@ -11,6 +11,7 @@ El objetivo es mostrar, paso a paso:
 ---
 
 **DETECCIÓN DE PLACAS VEHICULARES (OBJECT DETECTION)**
+
 1.1.Descripción: La detección de objetos consiste en identificar qué objeto aparece en una imagen y en qué ubicación, utilizando bounding boxes.
 
 En este proyecto, se entrenó un modelo YOLO12x para: Detectar placas vehiculares en imágenes de autos.
@@ -18,19 +19,29 @@ En este proyecto, se entrenó un modelo YOLO12x para: Detectar placas vehiculare
 1.2.Sobre el Dataset – Placas de Vehículos
 
 Origen: Roboflow Universe
+
 Tipo: Object Detection
+
 Clase principal: license_plate
+
 Características del dataset:
+
 Imágenes con vehículos vistos desde diferentes ángulos.
+
 Placas claramente visibles y anotadas correctamente.
+
 Fondo moderado (calles, parqueos, tráfico).
 
 🔗 https://app.roboflow.com/projectevelynsanchez/clean-yzsmx-o6xw6/1
 
 1.3.Resultados:
+
 mAP50: 0.995
+
 mAP50-95: 0.817
+
 Precisión: 0.998
+
 Recall: 0.998
 
 *El alto mAP50-95 confirma que las cajas generadas por el modelo se ajustan con gran exactitud a las anotaciones del dataset, reflejando una excelente calidad de entrenamiento.
