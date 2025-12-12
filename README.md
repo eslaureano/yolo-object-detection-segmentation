@@ -53,6 +53,7 @@ Recall: 0.998
 ---
 
 **SEGMENTACIÓN DE BOTELLAS (SEGMENTATION)**
+
 **2.1.Descripción:** La segmentación identifica no solo el objeto, sino su forma exacta, generando una máscara pixel a pixel.
 
 Se entrenó YOLOv11x-seg para segmentar:
